@@ -1,0 +1,61 @@
+body{margin: 0;
+padding: 0;
+font-family:'Cambria', 'Hoefler Text', 'Liberation Serif', 'Times', 'Times New Roman', 'serif';
+overflow: hidden;
+background-color: gray;}
+
+h1{color: black;
+text-align: center;
+
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: gray;
+}
+
+
+li{
+	float: left;
+	transform: translate(center);
+	text-align: center;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	background-color: gray;
+}
+
+li a:hover {
+	background-color: white;
+}
+
+#about {
+	text-align: center;
+}
+#headshot {
+	text-align: center;
+}
+
+footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: white;
+	text-align: center;
+}
+
+#PJ { position:fixed;
+	text-align: left;
+	
+	
+}
+
